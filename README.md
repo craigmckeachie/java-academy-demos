@@ -25,6 +25,7 @@ Demos are grouped by workbook and section:
 ```
 src/main/java/com/pluralsight/
 └── workbook1c/
+    ├── conditionals/ Section 4-1: if / else if / else, && || !
     ├── formatting/   Section 3-3: String.format and printf
     ├── input/        Section 3-3: reading input with Scanner
     └── methods/      Section 4-2: static methods
