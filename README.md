@@ -24,11 +24,16 @@ Demos are grouped by workbook and section:
 
 ```
 src/main/java/com/pluralsight/
-└── workbook1c/
-    ├── conditionals/ Section 4-1: if / else if / else, && || !
-    ├── formatting/   Section 3-3: String.format and printf
-    ├── input/        Section 3-3: reading input with Scanner
-    └── methods/      Section 4-2: static methods
+├── workbook1c/
+│   ├── conditionals/ Section 4-1: if / else if / else, && || !
+│   ├── formatting/   Section 3-3: String.format and printf
+│   ├── input/        Section 3-3: reading input with Scanner
+│   └── methods/      Section 4-2: static methods
+└── workbook2a/
+    ├── strings/       Section 1-1: String methods
+    ├── converting/    Section 1-2: Strings to numbers and dates
+    ├── stringbuilder/ Section 1-4: StringBuilder
+    └── classes/       Sections 2-1 to 2-3: classes, objects, overloading
 ```
 
 File names tell you what each file is:
@@ -38,5 +43,6 @@ File names tell you what each file is:
 | `...Starter` | Where the demo **starts**. We write the rest live in class. |
 | `...Before` | Code **before** we improve it (e.g. before refactoring). |
 | `...Demo` / `...App` | The **finished** demo, posted after class. |
+| anything else (e.g. `Pet`) | A class used by a finished demo, posted with it. |
 
 To run one, open the file and click the green ▶ next to `main`.
