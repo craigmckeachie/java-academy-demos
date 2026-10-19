@@ -20,29 +20,31 @@ git pull
 
 ## How it's organized
 
-Demos are grouped by workbook and section:
+Demos are grouped by workbook and topic. Each file teaches **one concept**, and its name says which:
 
 ```
 src/main/java/com/pluralsight/
 ├── workbook1c/
-│   ├── conditionals/ Section 4-1: if / else if / else, && || !
-│   ├── formatting/   Section 3-3: String.format and printf
-│   ├── input/        Section 3-3: reading input with Scanner
-│   └── methods/      Section 4-2: static methods
+│   ├── formatting/    Section 3-3: StringFormatDemo, DecimalFormattingDemo
+│   ├── input/         Section 3-3: ReadingInputDemo, LeftoverNewlineDemo
+│   ├── conditionals/  Section 4-1: IfStatementDemo, ElseIfDemo, LogicalOperatorsDemo
+│   └── methods/       Section 4-2: VoidMethodsDemo, ParametersDemo, ReturnValuesDemo
 └── workbook2a/
-    ├── strings/       Section 1-1: String methods
-    ├── converting/    Section 1-2: Strings to numbers and dates
-    ├── stringbuilder/ Section 1-4: StringBuilder
-    └── classes/       Sections 2-1 to 2-3: classes, objects, overloading
+    ├── strings/       Section 1-1: CleanAndCompareDemo, IndexOfSubstringDemo, SplitDemo
+    ├── converting/    Section 1-2: ParseNumbersDemo, ParseDatesDemo
+    ├── stringbuilder/ Section 1-4: StringBuilderDemo
+    ├── classes/       Section 2-1: Pet, CreatingObjectsDemo
+    ├── objects/       Section 2-2: Pet, ObjectMethodsDemo
+    └── overloading/   Section 2-3: Pet, OverloadingDemo
 ```
 
-File names tell you what each file is:
+**Starter and solution have the same name:**
 
-| Ending | What it is |
+| Where | What it is |
 |---|---|
-| `...Starter` | Where the demo **starts**. We write the rest live in class. |
-| `...Before` | Code **before** we improve it (e.g. before refactoring). |
-| `...Demo` / `...App` | The **finished** demo, posted after class. |
-| anything else (e.g. `Pet`) | A class used by a finished demo, posted with it. |
+| `methods/VoidMethodsDemo.java` | The **starter**: where the demo begins. We write the rest live in class. |
+| `methods/solutions/VoidMethodsDemo.java` | The **finished** version, posted after class. |
+
+Want to practice? Redo the starter on your own (in your own project), then compare with the solution.
 
 To run one, open the file and click the green ▶ next to `main`.
