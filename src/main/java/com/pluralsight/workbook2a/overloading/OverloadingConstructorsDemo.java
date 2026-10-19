@@ -3,12 +3,18 @@ package com.pluralsight.workbook2a.overloading;
 public class OverloadingConstructorsDemo {
 
     public static void main(String[] args) {
-        // TODO: create p1 with the constructor that takes a name and an age
+        // Workbook 2a p. 54
+        // This uses the parameterized constructor
+        Person p1 = new Person("Dana", 63);
 
-        // TODO: create p2 with the constructor that takes no parameters, then fill it in with setters
+        // This uses the constructor without parameters and
+        // then places data in the object using the setter methods
+        // TODO: create p2 with the no-parameter constructor, then use the setters (Natalie, 37)
 
-        // TODO: print both names
+        System.out.println("P1's name is " + p1.getName());
+        // TODO: print p2's name
 
-        // TODO: display p1 with printf: "Dana is 63 years old"
+        // p. 55: display the person's information
+        System.out.printf("%s is %d years old%n", p1.getName(), p1.getAge());
     }
 }

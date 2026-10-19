@@ -3,6 +3,7 @@ package com.pluralsight.workbook2a.strings;
 public class ComparingStringsDemo {
 
     public static void main(String[] args) {
+        // Workbook 2a p. 7
         // The compiler creates a string literal "ABC" and
         // the s1 variable references it
         String s1 = "ABC";
@@ -13,12 +14,24 @@ public class ComparingStringsDemo {
         String prefix = "A";
         String s3 = prefix + "BC";
 
-        // TODO: compare s1 and s2 with ==
+        if (s1 == s2) {
+            // this will be true
+            System.out.println("s1 == s2");
+        }
+        if (s1 == s3) {
+            // this will be false even though they both
+            // would display the string "ABC"
+            System.out.println("s1 == s3");
+        }
 
-        // TODO: compare s1 and s3 with ==
-
+        // Workbook 2a p. 8: equals() compares the characters
         // TODO: compare s1 and s3 with equals()
 
-        // TODO: compare s1 with "abc" using equalsIgnoreCase()
+        // Workbook 2a p. 8: equalsIgnoreCase() doesn't care about capitals
+        String lower = "abc";
+        if (s1.equalsIgnoreCase(lower)) {
+            // this will be true
+            System.out.println("s1.equalsIgnoreCase(lower)");
+        }
     }
 }

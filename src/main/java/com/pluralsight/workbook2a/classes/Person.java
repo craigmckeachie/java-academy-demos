@@ -1,9 +1,29 @@
 package com.pluralsight.workbook2a.classes;
 
+// Workbook 2a p. 37
+
 public class Person {
-    // TODO: private fields: name (a String) and age (an int)
+    private String name;
+    private int age;
 
-    // TODO: a constructor that takes a name and an age
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
-    // TODO: a getter and a setter for name, and for age
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return this.age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }

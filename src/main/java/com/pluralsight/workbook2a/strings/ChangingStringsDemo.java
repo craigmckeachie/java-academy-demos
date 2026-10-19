@@ -3,17 +3,28 @@ package com.pluralsight.workbook2a.strings;
 public class ChangingStringsDemo {
 
     public static void main(String[] args) {
+        // Workbook 2a p. 9: length
         String fullName = "Dana Wyatt";
-        // TODO: get the length
+        int length = fullName.length();
+        System.out.println(length);                  // 10
 
+        // p. 9: trim
         String username = " danaw    ";
-        // TODO: trim it
+        // TODO: trim the spaces off username
+        System.out.println("[" + username + "]");    // [danaw]
 
-        // TODO: make it uppercase
+        // p. 9: toUpperCase
+        username = username.toUpperCase();
+        System.out.println(username);                // DANAW
 
-        // TODO: start over and chain trim() and toUpperCase()
+        // p. 10: chain the calls
+        username = " danaw    ";
+        username = username.trim().toUpperCase();
+        System.out.println(username);                // DANAW
 
+        // p. 10: toLowerCase
         String state = "New Mexico";
-        // TODO: make it lowercase
+        state = state.toLowerCase();
+        System.out.println(state);                   // new mexico
     }
 }

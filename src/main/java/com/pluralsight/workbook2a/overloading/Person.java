@@ -1,10 +1,12 @@
 package com.pluralsight.workbook2a.overloading;
 
-public class Person {
-    // TODO: overload the constructor -- add one that takes no parameters
+// Workbook 2a p. 53
 
+public class Person {
     private String name;
     private int age;
+
+    // TODO: a constructor with no parameters
 
     public Person(String name, int age) {
         this.name = name;
