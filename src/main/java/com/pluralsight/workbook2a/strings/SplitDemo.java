@@ -16,6 +16,6 @@ public class SplitDemo {
 
         // Alternatively: Pattern.quote() returns a regular expression for the literal pipe
         String[] cities2 = input.split(Pattern.quote("|"));
-        System.out.println(cities2[1]);              // Ft. Worth
+        System.out.println(cities2[1]);
     }
 }

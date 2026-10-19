@@ -6,7 +6,7 @@ public class SearchingStringsDemo {
         // Workbook 2a p. 11: charAt
         String trackingCode = "USA-12981-Y-22";
         char hasShipped = trackingCode.charAt(10);
-        System.out.println(hasShipped);              // Y
+        System.out.println(hasShipped);
 
         // p. 11: indexOf (returns -1 if it doesn't find it)
         String productCode = "ACME-12213";
