@@ -29,15 +29,22 @@ src/main/java/com/pluralsight/
 │   ├── input/         Section 3-3: ReadingInputDemo, LeftoverNewlineDemo
 │   ├── conditionals/  Section 4-1: IfStatementDemo, ElseIfDemo, LogicalOperatorsDemo
 │   └── methods/       Section 4-2: VoidMethodsDemo, ParametersDemo, ReturnValuesDemo
-└── workbook2a/
-    ├── strings/       Section 1-1: EscapingQuotesDemo, ComparingStringsDemo, ChangingStringsDemo,
-    │                  CheckingStringsDemo, SearchingStringsDemo, SplitDemo
-    ├── converting/    Section 1-2: ParseNumbersDemo, ParseDatesDemo
-    ├── stringbuilder/ Section 1-4: StringBuilderDemo
-    ├── classes/       Section 2-1: Person, CreatingObjectsDemo
-    ├── objects/       Section 2-2: Person, ObjectMethodsDemo
-    └── overloading/   Section 2-3: Thingy, OverloadingMethodsDemo,
-                       Person, OverloadingConstructorsDemo
+├── workbook2a/
+│   ├── strings/       Section 1-1: EscapingQuotesDemo, ComparingStringsDemo, ChangingStringsDemo,
+│   │                  CheckingStringsDemo, SearchingStringsDemo, SplitDemo
+│   ├── converting/    Section 1-2: ParseNumbersDemo, ParseDatesDemo
+│   ├── stringbuilder/ Section 1-4: StringBuilderDemo
+│   ├── classes/       Section 2-1: Person, CreatingObjectsDemo
+│   ├── objects/       Section 2-2: Person, ObjectMethodsDemo
+│   ├── overloading/   Section 2-3: Thingy, OverloadingMethodsDemo,
+│   │                  Person, OverloadingConstructorsDemo
+│   ├── loops/         Section 3-1: WhileLoopDemo, DoWhileLoopDemo, ForLoopDemo,
+│   │                  BreakContinueDemo
+│   └── arrays/        Section 3-2: ArraysDemo, ForEachDemo, PassingArrayDemo,
+│                      ReturningArrayDemo, SortingArrayDemo, CopyingArrayDemo,
+│                      Person, ArrayOfObjectsDemo
+└── workbook2b/
+    └── codegen/       Section 1-1: Customer, CodeGenerationDemo
 ```
 
 **Starter and solution have the same name:**
