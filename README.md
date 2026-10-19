@@ -30,12 +30,14 @@ src/main/java/com/pluralsight/
 │   ├── conditionals/  Section 4-1: IfStatementDemo, ElseIfDemo, LogicalOperatorsDemo
 │   └── methods/       Section 4-2: VoidMethodsDemo, ParametersDemo, ReturnValuesDemo
 └── workbook2a/
-    ├── strings/       Section 1-1: CleanAndCompareDemo, IndexOfSubstringDemo, SplitDemo
+    ├── strings/       Section 1-1: EscapingQuotesDemo, ComparingStringsDemo, ChangingStringsDemo,
+    │                  CheckingStringsDemo, SearchingStringsDemo, SplitDemo
     ├── converting/    Section 1-2: ParseNumbersDemo, ParseDatesDemo
     ├── stringbuilder/ Section 1-4: StringBuilderDemo
-    ├── classes/       Section 2-1: Pet, CreatingObjectsDemo
-    ├── objects/       Section 2-2: Pet, ObjectMethodsDemo
-    └── overloading/   Section 2-3: Pet, OverloadingDemo
+    ├── classes/       Section 2-1: Person, CreatingObjectsDemo
+    ├── objects/       Section 2-2: Person, ObjectMethodsDemo
+    └── overloading/   Section 2-3: Thingy, OverloadingMethodsDemo,
+                       Person, OverloadingConstructorsDemo
 ```
 
 **Starter and solution have the same name:**
