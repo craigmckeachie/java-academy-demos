@@ -45,7 +45,7 @@ src/main/java/com/pluralsight/
 | Where | What it is |
 |---|---|
 | `methods/VoidMethodsDemo.java` | The **starter**: where the demo begins. We write the rest live in class. |
-| `methods/solutions/VoidMethodsDemo.java` | The **finished** version, posted after class. |
+| `methods/solutions/VoidMethodsDemo.java` | The **finished** version, posted along with the starter. |
 
 Want to practice? Redo the starter on your own (in your own project), then compare with the solution.
 
