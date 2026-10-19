@@ -32,6 +32,6 @@ public class ReturnValuesDemo {
 
     // void, with parameters -- does a task using the inputs we hand it
     public static void printPlayer(String name, int score) {
-        System.out.printf("%-6s score: %4d%n", name, score);
+        System.out.printf("%s score: %d%n", name, score);
     }
 }
