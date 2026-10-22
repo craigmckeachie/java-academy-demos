@@ -4,14 +4,14 @@ public class WhileLoopDemo {
 
     public static void main(String[] args) {
         // Workbook 2a p. 60: repeat while the condition is true
-        int i = 1;
-        int sum = 0;
 
-        while (i <= 10) {
-            sum += i;
-            i++;
+        // initialization: the counter starts at 1
+        int count = 1;
+
+        // condition: keep going while this is true
+        while (count <= 5) {
+            System.out.println(count);
+            count = count + 1;   // increment: without this, the loop never stops
         }
-
-        System.out.println("Sum = " + sum);          // Sum = 55
     }
 }

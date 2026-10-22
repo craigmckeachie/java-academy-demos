@@ -4,16 +4,15 @@ public class ReturningArrayDemo {
 
     public static void main(String[] args) {
         // Workbook 2a p. 74 (the workbook names this class Program)
-        int[] nums = getNumbers();
-        for (int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i] + " ");
+        int[] numbers = getNumbers();
+        for (int currentNumber : numbers) {
+            System.out.println(currentNumber);
         }
-        System.out.println();
     }
 
     // no size in the return type either
     public static int[] getNumbers() {
-        int[] nums = {63, 65, 60, 53, 58, 37, 35, 31};
-        return nums;
+        int[] numbers = {54, 77, 88, 99, 12, 83};
+        return numbers;
     }
 }

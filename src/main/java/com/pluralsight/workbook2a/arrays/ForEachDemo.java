@@ -3,8 +3,18 @@ package com.pluralsight.workbook2a.arrays;
 public class ForEachDemo {
 
     public static void main(String[] args) {
-        // Workbook 2a p. 71: for-each gives you each element (but not its index)
-        String[] schools = {"Calliet", "Cary", "Skyline", "SFASU", "TAMU"};
-        // TODO: print every school with a for-each loop
+        // Workbook 2a p. 71: for-each hands you each element, one at a time
+        int[] numbers = {54, 77, 88, 99, 12, 83};
+
+        // TODO: print every number with a for-each loop
+
+        // for (type elementName : arrayName) {
+        //     // code
+        // }
+        //
+        // int           the data type of ONE element in the array
+        // currentNumber the name for one element: you pick it, and it should be singular
+        // :             read it as "in"
+        // numbers       the array (plural)
     }
 }

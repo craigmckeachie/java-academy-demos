@@ -38,9 +38,10 @@ src/main/java/com/pluralsight/
 │   ├── objects/       Section 2-2: Person, ObjectMethodsDemo
 │   ├── overloading/   Section 2-3: Thingy, OverloadingMethodsDemo,
 │   │                  Person, OverloadingConstructorsDemo
-│   ├── loops/         Section 3-1: WhileLoopDemo, DoWhileLoopDemo, ForLoopDemo,
+│   ├── loops/         Section 3-1: WhileLoopDemo, ForLoopDemo, DoWhileLoopDemo,
 │   │                  BreakContinueDemo
-│   └── arrays/        Section 3-2: ArraysDemo, ForEachDemo, PassingArrayDemo,
+│   └── arrays/        Section 3-2: ArrayIndexDemo, ArrayWhileLoopDemo, ArrayForLoopDemo,
+│                      ForEachDemo, DefaultValuesDemo, PassingArrayDemo,
 │                      ReturningArrayDemo, SortingArrayDemo, CopyingArrayDemo,
 │                      Person, ArrayOfObjectsDemo
 └── workbook2b/

@@ -4,15 +4,14 @@ public class PassingArrayDemo {
 
     public static void main(String[] args) {
         // Workbook 2a p. 73 (the workbook names this class Program)
-        int[] nums = {63, 65, 60, 53, 58, 37, 35, 31};
-        displayNumbers(nums);
+        int[] numbers = {54, 77, 88, 99, 12, 83};
+        displayNumbers(numbers);
     }
 
     // no size in the parameter: any int array can be passed in
-    public static void displayNumbers(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i] + " ");
+    public static void displayNumbers(int[] numbers) {
+        for (int currentNumber : numbers) {
+            System.out.println(currentNumber);
         }
-        System.out.println();
     }
 }
