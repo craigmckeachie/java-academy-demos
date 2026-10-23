@@ -1,0 +1,15 @@
+package com.pluralsight.workbook2b.objectarrays;
+
+public class CustomerArrayDemo {
+
+    public static void main(String[] args) {
+        // The generated Customer class in a fixed-size array (like Vehicle Inventory)
+        Customer[] customers = new Customer[5];   // room for 5 customers
+
+        customers[0] = new Customer(1, "Dana W.", 125.00);
+        customers[1] = new Customer(2, "Natalie M.", 0.00);
+        customers[2] = new Customer(3, "Zachary K.", 42.50);
+
+        // TODO: create a count of the filled slots, print customers[0], then print every customer with a for loop
+    }
+}
