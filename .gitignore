@@ -3,3 +3,7 @@ target/
 *.iml
 out/
 .DS_Store
+
+# Files the demos write when you run them
+text.txt
+counting.txt

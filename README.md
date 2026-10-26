@@ -44,9 +44,21 @@ src/main/java/com/pluralsight/
 │                      ForEachDemo, DefaultValuesDemo, PassingArrayDemo,
 │                      ReturningArrayDemo, SortingArrayDemo, CopyingArrayDemo,
 │                      Person, ArrayOfObjectsDemo
-└── workbook2b/
-    └── codegen/       Section 1-1: Customer, CodeGenerationDemo
+├── workbook2b/
+│   └── codegen/       Section 1-1: Customer, CodeGenerationDemo
+└── workbook3a/
+    ├── exceptions/    Section 1-1: TryCatchDemo
+    ├── readingfiles/  Section 1-2: ReadFileDemo, ReadLoopDemo, ShortReadLoopDemo
+    ├── writingfiles/  Section 2-1: WriteFileDemo, AppendFileDemo, WriteLoopDemo
+    ├── dates/         Section 2-2: CurrentDateDemo, DatePartsDemo, FormattingDatesDemo
+    ├── arraylists/    Section 3-2: ArrayListDemo, ChangingListDemo, Person,
+    │                  ListOfObjectsDemo, FileToListDemo
+    └── hashmaps/      Section 4-1: HashMapDemo
 ```
+
+Workbook 1c's switch statement (Section 4-3) was taught in Week 3, so it's in `workbook1c/switches/`: SwitchStatementDemo, SwitchValuesDemo, SwitchMenuDemo.
+
+Files the demos read, like `poem.txt`, sit in the project root next to `pom.xml`. That's where IntelliJ looks for a file name like `"poem.txt"`.
 
 **Starter and solution have the same name:**
 
