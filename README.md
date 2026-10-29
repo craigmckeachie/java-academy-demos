@@ -54,7 +54,8 @@ src/main/java/com/pluralsight/
     ├── arraylists/    Section 3-2: ArrayListDemo, ChangingListDemo, Person,
     │                  ListOfObjectsDemo, FileToListDemo
     ├── hashmaps/      Section 4-1: HashMapDemo
-    └── screens/       Capstone 1 menus and screens: MenuScreensDemo
+    └── screens/       Capstone 1 menus and screens: MenuScreensDemo; level by level:
+                       ScreenLoopDemo, ActionsDemo, SecondScreenDemo, ThirdScreenDemo
 ```
 
 Workbook 1c's switch statement (Section 4-3) was taught in Week 3, so it's in `workbook1c/switches/`: SwitchStatementDemo, SwitchValuesDemo, SwitchMenuDemo.
