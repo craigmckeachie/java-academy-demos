@@ -46,17 +46,24 @@ src/main/java/com/pluralsight/
 │                      Person, ArrayOfObjectsDemo
 ├── workbook2b/
 │   └── codegen/       Section 1-1: Customer, CodeGenerationDemo
-└── workbook3a/
-    ├── exceptions/    Section 1-1: TryCatchDemo
-    ├── readingfiles/  Section 1-2: ReadFileDemo, ReadLoopDemo, ShortReadLoopDemo
-    ├── writingfiles/  Section 2-1: WriteFileDemo, AppendFileDemo, WriteLoopDemo
-    ├── dates/         Section 2-2: CurrentDateDemo, DatePartsDemo, FormattingDatesDemo
-    ├── arraylists/    Section 3-2: ArrayListDemo, ChangingListDemo, Person,
-    │                  ListOfObjectsDemo, FileToListDemo
-    ├── hashmaps/      Section 4-1: HashMapDemo
-    ├── screens/       Capstone 1 menus and screens: MenuScreensDemo; level by level:
-    │                  ScreenLoopDemo, ActionsDemo, SecondScreenDemo, ThirdScreenDemo
-    └── validation/    Capstone 1 input helpers: ValidatingInputDemo
+├── workbook3a/
+│   ├── exceptions/    Section 1-1: TryCatchDemo
+│   ├── readingfiles/  Section 1-2: ReadFileDemo, ReadLoopDemo, ShortReadLoopDemo
+│   ├── writingfiles/  Section 2-1: WriteFileDemo, AppendFileDemo, WriteLoopDemo
+│   ├── dates/         Section 2-2: CurrentDateDemo, DatePartsDemo, FormattingDatesDemo
+│   ├── arraylists/    Section 3-2: ArrayListDemo, ChangingListDemo, Person,
+│   │                  ListOfObjectsDemo, FileToListDemo
+│   ├── hashmaps/      Section 4-1: HashMapDemo
+│   ├── screens/       Capstone 1 menus and screens: MenuScreensDemo; level by level:
+│   │                  ScreenLoopDemo, ActionsDemo, SecondScreenDemo, ThirdScreenDemo
+│   └── validation/    Capstone 1 input helpers: ValidatingInputDemo
+└── workbook4a/
+    ├── getters/       Section 2-1: Person, DerivedGettersDemo, BooleanGettersDemo
+    ├── methods/       Section 2-2: Car, ChangingStateDemo
+    ├── testing/       Section 3-2: Car, and CarTest in src/test/java
+    ├── bigdecimal/    Section 4-1: ExactDecimalsDemo, BankAccount, BankAccountDemo
+    ├── statics/       Section 4-2: BankAccount, InstanceAndStaticDemo, MathUtilityDemo
+    └── cardgame/      Section 5-1: Card, Hand, Deck, CardAndHandDemo, CardGameDemo
 ```
 
 Workbook 1c's switch statement (Section 4-3) was taught in Week 3, so it's in `workbook1c/switches/`: SwitchStatementDemo, SwitchValuesDemo, SwitchMenuDemo.
