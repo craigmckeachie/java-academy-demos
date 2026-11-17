@@ -12,11 +12,11 @@ public class CastingDemo {
         people.add(new Caveman());
         people.add(new ModernPerson());
 
-        for (int index = 0; index < people.size(); index = index + 1) {
-            people.get(index).eat();
+        for (Human person : people) {
+            person.eat();
 
-            if (people.get(index) instanceof Caveman) {
-                Caveman caveman = (Caveman) people.get(index); // safe: we just checked
+            if (person instanceof Caveman) {
+                Caveman caveman = (Caveman) person; // safe: we just checked
                 caveman.makeFire();
             }
         }

@@ -12,9 +12,9 @@ public class GetClassDemo {
         people.add(new Caveman());
         people.add(new ModernPerson());
 
-        for (int index = 0; index < people.size(); index = index + 1) {
-            System.out.print(people.get(index).getClass().getSimpleName() + "--> ");
-            people.get(index).eat();
+        for (Human person : people) {
+            System.out.print(person.getClass().getSimpleName() + "--> ");
+            person.eat();
         }
 
         // p. 45: every class extends Object, so every object has toString()

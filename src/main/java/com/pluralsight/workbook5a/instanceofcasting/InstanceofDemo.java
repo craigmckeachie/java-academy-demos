@@ -12,17 +12,17 @@ public class InstanceofDemo {
         people.add(new Caveman());
         people.add(new ModernPerson());
 
-        for (int index = 0; index < people.size(); index = index + 1) {
-            if (people.get(index) instanceof Human) {
+        for (Human person : people) {
+            if (person instanceof Human) {
                 System.out.print("Human--> ");
             }
-            if (people.get(index) instanceof Caveman) {
+            if (person instanceof Caveman) {
                 System.out.print("Caveman--> ");
             }
-            if (people.get(index) instanceof ModernPerson) {
+            if (person instanceof ModernPerson) {
                 System.out.print("ModernPerson--> ");
             }
-            people.get(index).eat();
+            person.eat();
         }
     }
 }

@@ -16,7 +16,7 @@ public class AssetArrayDemo {
 
         BigDecimal myNetWorth = BigDecimal.ZERO;
 
-        for (int index = 0; index < myAssets.length; index = index + 1) {
+        for (Asset asset : myAssets) {
             // TODO: add this asset's value to myNetWorth
         }
 

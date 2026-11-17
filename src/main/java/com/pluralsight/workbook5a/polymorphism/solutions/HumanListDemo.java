@@ -12,8 +12,8 @@ public class HumanListDemo {
         people.add(new Caveman());
         people.add(new ModernPerson());
 
-        for (int index = 0; index < people.size(); index = index + 1) {
-            people.get(index).eat(); // each one eats its own way
+        for (Human person : people) {
+            person.eat(); // each one eats its own way
         }
     }
 }

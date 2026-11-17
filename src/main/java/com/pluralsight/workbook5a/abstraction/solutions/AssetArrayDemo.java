@@ -16,8 +16,8 @@ public class AssetArrayDemo {
 
         BigDecimal myNetWorth = BigDecimal.ZERO;
 
-        for (int index = 0; index < myAssets.length; index = index + 1) {
-            myNetWorth = myNetWorth.add(myAssets[index].getValue()); // each asset works out its own value
+        for (Asset asset : myAssets) {
+            myNetWorth = myNetWorth.add(asset.getValue()); // each asset works out its own value
         }
 
         System.out.printf("My Current Net Worth: $%.2f%n", myNetWorth);

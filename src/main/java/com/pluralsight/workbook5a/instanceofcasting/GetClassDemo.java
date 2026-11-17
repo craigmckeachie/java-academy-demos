@@ -12,9 +12,9 @@ public class GetClassDemo {
         people.add(new Caveman());
         people.add(new ModernPerson());
 
-        for (int index = 0; index < people.size(); index = index + 1) {
+        for (Human person : people) {
             // TODO: print the class name, then "--> "
-            people.get(index).eat();
+            person.eat();
         }
 
         // TODO: print the first person

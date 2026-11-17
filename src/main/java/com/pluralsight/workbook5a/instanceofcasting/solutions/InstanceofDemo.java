@@ -12,16 +12,16 @@ public class InstanceofDemo {
         people.add(new Caveman());
         people.add(new ModernPerson());
 
-        for (int index = 0; index < people.size(); index = index + 1) {
+        for (Human person : people) {
             // most specific first, and stop at the first match
-            if (people.get(index) instanceof ModernPerson) {
+            if (person instanceof ModernPerson) {
                 System.out.print("ModernPerson--> ");
-            } else if (people.get(index) instanceof Caveman) {
+            } else if (person instanceof Caveman) {
                 System.out.print("Caveman--> ");
-            } else if (people.get(index) instanceof Human) {
+            } else if (person instanceof Human) {
                 System.out.print("Human--> ");
             }
-            people.get(index).eat();
+            person.eat();
         }
     }
 }
