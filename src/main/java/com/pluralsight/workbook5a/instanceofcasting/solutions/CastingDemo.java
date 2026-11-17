@@ -15,8 +15,7 @@ public class CastingDemo {
         for (Human person : people) {
             person.eat();
 
-            if (person instanceof Caveman) {
-                Caveman caveman = (Caveman) person; // safe: we just checked
+            if (person instanceof Caveman caveman) { // check and cast in one step
                 caveman.makeFire();
             }
         }
