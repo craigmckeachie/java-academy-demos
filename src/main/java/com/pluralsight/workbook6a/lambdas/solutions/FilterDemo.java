@@ -40,5 +40,11 @@ public class FilterDemo {
         for (Employee employee : streamEarners) {
             System.out.println(employee.getName());
         }
+
+        // how many, as a stream
+        long howMany = employees.stream()
+                .filter(employee -> employee.getSalary().compareTo(limit) > 0)
+                .count();
+        System.out.println("How many: " + howMany);
     }
 }

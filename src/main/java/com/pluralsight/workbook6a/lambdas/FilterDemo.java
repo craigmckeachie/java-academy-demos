@@ -32,5 +32,7 @@ public class FilterDemo {
         }
 
         // TODO: the same search, as a stream: stream(), filter(...), toList()
+
+        // TODO: how many big earners? stream(), filter(...), count()
     }
 }
