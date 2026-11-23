@@ -1,17 +1,26 @@
 package com.pluralsight.workbook6a.streammethods;
 
-import java.util.Arrays;
+import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 
 public class SortedDemo {
 
     public static void main(String[] args) {
-        // Workbook 6a pp. 75-76
-        List<String> titles = Arrays.asList(
-                "Halloween", "Ghost", "Halloween 2",
-                "Friday the 13th", "Twister", "Halloween 3");
+        // Workbook 6a pp. 75-76, with movies instead
+        List<Movie> movies = new ArrayList<>();
+        movies.add(new Movie("Twister", 1996, new BigDecimal("3.99")));
+        movies.add(new Movie("Ghost", 1990, new BigDecimal("2.99")));
+        movies.add(new Movie("Halloween", 1978, new BigDecimal("3.49")));
+        movies.add(new Movie("Jaws", 1975, new BigDecimal("2.99")));
+        movies.add(new Movie("Coco", 2017, new BigDecimal("4.99")));
 
-        // TODO: print the Halloween titles in alphabetical order
-        // TODO: print every title in alphabetical order, with System.out::println
+        // TODO: print the titles in alphabetical order
+
+        System.out.println();
+
+        // TODO: a list of the movies, oldest first
+
+        // TODO: print each one's year and title
     }
 }

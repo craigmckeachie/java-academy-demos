@@ -1,15 +1,20 @@
 package com.pluralsight.workbook6a.streammethods;
 
-import java.util.Arrays;
+import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 
 public class MapDemo {
 
     public static void main(String[] args) {
-        // Workbook 6a p. 77
-        List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
+        // Workbook 6a p. 77, with movies instead
+        List<Movie> movies = new ArrayList<>();
+        movies.add(new Movie("Twister", 1996, new BigDecimal("3.99")));
+        movies.add(new Movie("Ghost", 1990, new BigDecimal("2.99")));
+        movies.add(new Movie("Halloween", 1978, new BigDecimal("3.49")));
+        movies.add(new Movie("Jaws", 1975, new BigDecimal("2.99")));
+        movies.add(new Movie("Coco", 2017, new BigDecimal("4.99")));
 
-        // TODO: turn each number into its square, and print the list
-        // TODO: the same, without repeats (distinct)
+        // TODO: a list of just the titles
     }
 }
