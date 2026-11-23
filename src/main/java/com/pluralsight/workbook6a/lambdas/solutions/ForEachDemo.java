@@ -1,7 +1,6 @@
 package com.pluralsight.workbook6a.lambdas.solutions;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,9 +24,9 @@ public class ForEachDemo {
         employees.add(new Employee("Pursalane", "Teacher", new BigDecimal("697250.00")));
         employees.add(new Employee("Zephaniah", "Engineer", new BigDecimal("136000.00")));
 
+        // everyone gets a $1,000 raise
         employees.forEach(employee -> {
-            BigDecimal raised = employee.getSalary().multiply(new BigDecimal("1.10"))
-                    .setScale(2, RoundingMode.HALF_UP);
+            BigDecimal raised = employee.getSalary().add(new BigDecimal("1000.00"));
             employee.setSalary(raised);
             System.out.println(employee.getName() + " earns $" + employee.getSalary());
         });
